@@ -1,9 +1,24 @@
 __author__ = 'venkat'
-from libs import global_variables as run
+from libs.Calc import Calculator
 
 Test_Status = 1
 
-if run.Test_Status == 0:
-    print "Not OK"
-else:
-    print "OK"
+
+class do:
+    def __init__(self):
+        self.addition = Calculator()
+
+
+    def fg(self):
+        z = self.addition.add(2, 3)
+        print z
+
+
+if __name__ == "__main__":
+    d01 = do()
+    do1.fg()
+
+
+
+
+
